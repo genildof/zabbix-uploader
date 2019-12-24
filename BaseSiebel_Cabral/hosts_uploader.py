@@ -72,51 +72,51 @@ i = 0
 
 for k in data.itertuples(): 
 
-	try:
-		zapi.host.create(
-			host= str(k[dictionary_3["OLT"]]) + "_" + str(k[dictionary_3["INST_BL"]]),
-			name= str(k[dictionary_3["CONTRATO"]]) + "_" + str(k[dictionary_3["INST_VOZ"]]),
-			status= 0, # 1 for Inactive
-			interfaces=[{
-				"type": 1,
-				"main": "1",
-				"useip": 1,
-				"ip": str(k[dictionary_3["IP_FIXO"]]),
-				"dns": "",
-				"port": 10050
-			}],
-			tags=[{
-				"tag": "OLT",
-				"value": str(k[dictionary_3["OLT"]])
-			}],
-			groups=[{
-				"groupid": hostgrp_dictionary[str(k[dictionary_3["CONTRATO"]])]
-			}],
-			templates=[{
-				"templateid": dictionary_2["CPE_B2C"]
-			}],
-			description= "INST_VOZ: " + str(k[dictionary_3["INST_VOZ"]]) + "\n" + 
-				"INST_BL: " + str(k[dictionary_3["INST_BL"]]) + "\n" +
-				"IP_FIXO: " + str(k[dictionary_3["IP_FIXO"]]) + "\n" + 
-				"OLT: " + str(k[dictionary_3["OLT"]]) + "\n" +
-				"CABO: " + str(k[dictionary_3["CABO"]]) + "\n" +
-				"CANG: " + str(k[dictionary_3["CANG"]]) + "\n" +
-				"CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
-		)
+    try:
+        zapi.host.create(
+            host= str(k[dictionary_3["OLT"]]) + "_" + str(k[dictionary_3["INST_BL"]]),
+            name= str(k[dictionary_3["CONTRATO"]]) + "_" + str(k[dictionary_3["INST_VOZ"]]),
+	    status= 0, # 1 for Inactive
+	    interfaces=[{
+		"type": 1,
+		"main": "1",
+		"useip": 1,
+		"ip": str(k[dictionary_3["IP_FIXO"]]),
+		"dns": "",
+		"port": 10050
+	    }],
+	    tags=[{
+		"tag": "OLT",
+		"value": str(k[dictionary_3["OLT"]])
+	    }],
+	    groups=[{
+	        "groupid": hostgrp_dictionary[str(k[dictionary_3["CONTRATO"]])]
+	    }],
+	    templates=[{
+		"templateid": dictionary_2["CPE_B2C"]
+	    }],
+	    description= "INST_VOZ: " + str(k[dictionary_3["INST_VOZ"]]) + "\n" + 
+		"INST_BL: " + str(k[dictionary_3["INST_BL"]]) + "\n" +
+		"IP_FIXO: " + str(k[dictionary_3["IP_FIXO"]]) + "\n" + 
+		"OLT: " + str(k[dictionary_3["OLT"]]) + "\n" +
+		"CABO: " + str(k[dictionary_3["CABO"]]) + "\n" +
+		"CANG: " + str(k[dictionary_3["CANG"]]) + "\n" +
+		"CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+	    )
 
-	except Exception as e:
-		print(f"Exception when creating the host {str(k[dictionary_3['OLT']])} {str(k[dictionary_3['INST_BL']])}")
+    except Exception as e:
+        print(f"Exception when creating the host {str(k[dictionary_3['OLT']])} {str(k[dictionary_3['INST_BL']])}")
 
-                with open(LOG_FILE, 'a') as f:
-			f.write("-"*80)
-			f.write(f"\nException when creating the host {str(k[dictionary_3['OLT']])} {str(k[dictionary_3['INST_BL']])}")
-			f.write(str(e))
-			f.write(traceback.format_exc())
-			f.write("\n")
-	
-	finally:
-		i += 1
-		bar.update(i)
+        with open(LOG_FILE, 'a') as f:
+            f.write("-"*80)
+            f.write(f"\nException when creating the host {str(k[dictionary_3['OLT']])} {str(k[dictionary_3['INST_BL']])}")
+            f.write(str(e))
+            f.write(traceback.format_exc())
+            f.write("\n")
+
+    finally:
+        i += 1
+        bar.update(i)
 
 bar.finish
 print()
