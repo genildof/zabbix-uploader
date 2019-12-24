@@ -1,0 +1,360 @@
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCTT_OLT02 SJC-4970284252-013('Error -32602: Invalid params., Host with the same name "BR_SJCTT_OLT02_SJC-4970284252-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_SJCTT_OLT02_SJC-4970284252-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_TTEAM_OLT06 TTE-814TJBI3KS-013('Error -32602: Invalid params., Host with the same name "BR_TTEAM_OLT06_TTE-814TJBI3KS-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_TTEAM_OLT06_TTE-814TJBI3KS-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_TTEAM_OLT05 TTE-814UFMPXT4-013('Error -32602: Invalid params., Host with the same name "BR_TTEAM_OLT05_TTE-814UFMPXT4-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_TTEAM_OLT05_TTE-814UFMPXT4-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCTT_OLT02 SJC-814YR093FQ-013('Error -32602: Invalid params., Host with the same name "BR_SJCTT_OLT02_SJC-814YR093FQ-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_SJCTT_OLT02_SJC-814YR093FQ-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCTT_OLT02 SJC-8150I4XCDS-013('Error -32602: Invalid params., Host with the same name "BR_SJCTT_OLT02_SJC-8150I4XCDS-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_SJCTT_OLT02_SJC-8150I4XCDS-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCTT_OLT02 SJC-813P3059KB-013('Error -32602: Invalid params., Host with the same name "BR_SJCTT_OLT02_SJC-813P3059KB-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_SJCTT_OLT02_SJC-813P3059KB-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCTT_OLT02 SJC-813P3059KB-013('Error -32602: Invalid params., Host with the same name "BR_SJCTT_OLT02_SJC-813P3059KB-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_SJCTT_OLT02_SJC-813P3059KB-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCTT_OLT02 SJC-813P3059KB-013('Error -32602: Invalid params., Host with the same name "BR_SJCTT_OLT02_SJC-813P3059KB-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_SJCTT_OLT02_SJC-813P3059KB-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCRH_OLT07 SJC-814TGSQB94-013('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT07_SJC-814TGSQB94-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT07_SJC-814TGSQB94-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCRH_OLT07 SJC-814TGY4UVY-013('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT07_SJC-814TGY4UVY-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT07_SJC-814TGY4UVY-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCRH_OLT06 SJC-81553CGQ60-013('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT06_SJC-81553CGQ60-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT06_SJC-81553CGQ60-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCRH_OLT06 SJC-81553CGQ60-013('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT06_SJC-81553CGQ60-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT06_SJC-81553CGQ60-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCRH_OLT07 SJC-8150RT8VL2-013('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT07_SJC-8150RT8VL2-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT07_SJC-8150RT8VL2-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCRH_OLT01 SJC-815A67XIKY-013('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT01_SJC-815A67XIKY-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT01_SJC-815A67XIKY-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCTT_OLT02 SJC-814M4Y4S2B-013('Error -32602: Invalid params., Host with the same name "BR_SJCTT_OLT02_SJC-814M4Y4S2B-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_SJCTT_OLT02_SJC-814M4Y4S2B-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_CPVMI_OLT01 CPV-815BWLWAEA-013('Error -32602: Invalid params., Host with the same name "BR_CPVMI_OLT01_CPV-815BWLWAEA-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_CPVMI_OLT01_CPV-815BWLWAEA-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_CPVMI_OLT01 CPV-815BWLWAEA-013('Error -32602: Invalid params., Host with the same name "BR_CPVMI_OLT01_CPV-815BWLWAEA-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_CPVMI_OLT01_CPV-815BWLWAEA-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_TTEAM_OLT08 TTE-815COBDL9D-013('Error -32602: Invalid params., Host with the same name "BR_TTEAM_OLT08_TTE-815COBDL9D-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_TTEAM_OLT08_TTE-815COBDL9D-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCRH_OLT11 SJC-815ECK1OKW-013('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT11_SJC-815ECK1OKW-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT11_SJC-815ECK1OKW-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_TTEAM_OLT08 TTE-815COBDL9D-013('Error -32602: Invalid params., Host with the same name "BR_TTEAM_OLT08_TTE-815COBDL9D-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_TTEAM_OLT08_TTE-815COBDL9D-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_TTEAM_OLT08 TTE-815COBDL9D-013('Error -32602: Invalid params., Host with the same name "BR_TTEAM_OLT08_TTE-815COBDL9D-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_TTEAM_OLT08_TTE-815COBDL9D-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_TTEAM_OLT03 1236243871('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1236243871" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1236243871" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_JCIJM_OLT03 1260601689('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1210405896" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1210405896" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_TTEAM_OLT06 1260757669('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1210380008" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1210380008" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCRH_OLT02 1260974403('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1210761140" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1210761140" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_JCIJM_OLT03 1261168533('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1210408586" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1210408586" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCRH_OLT02 1261167135('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1210764277" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1210764277" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCRH_OLT07 SJC-8150IUCXIW-013('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT07_SJC-8150IUCXIW-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT07_SJC-8150IUCXIW-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_JCIJM_OLT03 JCI-8152UZVBKO-013('Error -32602: Invalid params., Host with the same name "BR_JCIJM_OLT03_JCI-8152UZVBKO-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_JCIJM_OLT03_JCI-8152UZVBKO-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_JCICF_OLT01 JCI-3350595970-013('Error -32602: Invalid params., Host with the same name "BR_JCICF_OLT01_JCI-3350595970-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_JCICF_OLT01_JCI-3350595970-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCRH_OLT10 SJC-814VEZ2VTG-013('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT10_SJC-814VEZ2VTG-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_SJCRH_OLT10_SJC-814VEZ2VTG-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_TTEAM_OLT02 TTE-815F4ZUDK2-013('Error -32602: Invalid params., Host with the same name "BR_TTEAM_OLT02_TTE-815F4ZUDK2-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_TTEAM_OLT02_TTE-815F4ZUDK2-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_TTEAM_OLT02 TTE-815F4ZUDK2-013('Error -32602: Invalid params., Host with the same name "BR_TTEAM_OLT02_TTE-815F4ZUDK2-013" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same name "BR_TTEAM_OLT02_TTE-815F4ZUDK2-013" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_SJCRH_OLT07 1260966446('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1210761235" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1210761235" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_JCIJM_OLT01 1261007169('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1210408039" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1210408039" already exists.', -32602)
+
+--------------------------------------------------------------------------------
+Exception when creating the host BR_JCILN_OLT01 1261331370('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1210409296" already exists.', -32602)Traceback (most recent call last):
+  File "hosts_uploader.py", line 104, in <module>
+    "CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 166, in fn
+    args or kwargs
+  File "/usr/local/lib/python3.6/dist-packages/pyzabbix/__init__.py", line 143, in do_request
+    raise ZabbixAPIException(msg, response_json['error']['code'])
+pyzabbix.ZabbixAPIException: ('Error -32602: Invalid params., Host with the same visible name "ABILITY_SJ_1210409296" already exists.', -32602)
+
