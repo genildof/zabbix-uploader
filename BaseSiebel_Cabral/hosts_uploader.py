@@ -9,7 +9,7 @@ import pandas as pd
 
 hostgrp_dictionary = {
     "B2B AVANÇADOS": 15,
-    "ABILITY_INTERIOR": 16,
+    "ABILITY_SJ": 16,
     "ABILITY_CAPITAL": 17,
     "ICOMON_ABCD": 18,
     "ICOMON_AT": 19,
@@ -29,13 +29,12 @@ hostgrp_dictionary = {
 
 dictionary_2 = { #hosts table on zabbix db
     "CPE_B2C": 10308,
-    "CPE_B2C": 10309
+    "CPE_B2B": 10309
 }
 
 dictionary_3 = {
     "INST_VOZ": 3,
     "INST_BL": 10,
-    "IP_FIXO": 3,
     "MODELO_ROTEADOR": 12,
     "CONTRATO": 20,
     "CANG": 25,
@@ -75,8 +74,8 @@ for k in data.itertuples():
 
 	try:
 		zapi.host.create(
-			host= str(k[dictionary_3["NOME_REDE_OLT"]]) + "_" + str(k[dictionary_3["NRO_TELEFONE13"]]),
-			name= str(k[dictionary_3["CONTRATO"]]) + "_" + str(k[dictionary_3["NRC"]]),
+			host= str(k[dictionary_3["OLT"]]) + "_" + str(k[dictionary_3["INST_BL"]]),
+			name= str(k[dictionary_3["CONTRATO"]]) + "_" + str(k[dictionary_3["INST_VOZ"]]),
 			status= 0, # 1 for Inactive
 			interfaces=[{
 				"type": 1,
@@ -88,7 +87,7 @@ for k in data.itertuples():
 			}],
 			tags=[{
 				"tag": "OLT",
-				"value": str(k[dictionary_3["NOME_REDE_OLT"]])
+				"value": str(k[dictionary_3["OLT"]])
 			}],
 			groups=[{
 				"groupid": hostgrp_dictionary[str(k[dictionary_3["CONTRATO"]])]
@@ -96,21 +95,21 @@ for k in data.itertuples():
 			templates=[{
 				"templateid": dictionary_2["CPE_B2C"]
 			}],
-			description= "NRC: " + str(k[dictionary_3["NRC"]]) + "\n" + 
-				"NRO_TELEFONE13: " + str(k[dictionary_3["NRO_TELEFONE13"]]) + "\n" +
-				"IP: " + str(k[dictionary_3["IP_FIXO"]]) + "\n" + 
-				"NOME_REDE_OLT: " + str(k[dictionary_3["NOME_REDE_OLT"]]) + "\n" +
-				"CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n" +
-				"DATA_CRIACAO_CLIENTE: " + str(k[dictionary_3["DATA_CRIACAO_CLIENTE"]]) + "\n" +
-				"GESTAO: " + str(k[dictionary_3["GESTAO"]]) + "\n\n\n_gf_"
+			description= "INST_VOZ: " + str(k[dictionary_3["INST_VOZ"]]) + "\n" + 
+				"INST_BL: " + str(k[dictionary_3["INST_BL"]]) + "\n" +
+				"IP_FIXO: " + str(k[dictionary_3["IP_FIXO"]]) + "\n" + 
+				"OLT: " + str(k[dictionary_3["OLT"]]) + "\n" +
+				"CABO: " + str(k[dictionary_3["CABO"]]) + "\n" +
+				"CANG: " + str(k[dictionary_3["CANG"]]) + "\n" +
+				"CONTRATO: " + str(k[dictionary_3["CONTRATO"]]) + "\n\n\n__genildo.ferreira@telefonica.com__"
 		)
 
 	except Exception as e:
-		print(f"Exception when creating the host {str(k[dictionary_3['NOME_REDE_OLT']])} {str(k[dictionary_3['NRO_TELEFONE13']])}")
+		print(f"Exception when creating the host {str(k[dictionary_3['OLT']])} {str(k[dictionary_3['INST_BL']])}")
 
-		with open(LOG_FILE, 'a') as f:
+                with open(LOG_FILE, 'a') as f:
 			f.write("-"*80)
-			f.write(f"\nException when creating the host {str(k[dictionary_3['NOME_REDE_OLT']])} {str(k[dictionary_3['NRO_TELEFONE13']])}")
+			f.write(f"\nException when creating the host {str(k[dictionary_3['OLT']])} {str(k[dictionary_3['INST_BL']])}")
 			f.write(str(e))
 			f.write(traceback.format_exc())
 			f.write("\n")

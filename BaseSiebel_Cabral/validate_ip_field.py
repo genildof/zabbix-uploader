@@ -10,7 +10,6 @@ import socket
 dictionary_3 = {
     "INST_VOZ": 9,
     "INST_BL": 10,
-    "IP_FIXO": 3,
     "MODELO_ROTEADOR": 12,
     "CONTRATO": 20,
     "CANG": 25,
@@ -33,7 +32,7 @@ for k in data.itertuples():
 	try:
 		socket.inet_aton(k[dictionary_3["IP_FIXO"]])
 	except socket.error:
-		print("Invalid IP at line " + str(i) + " - " + k[dictionary_3["IP_FIXO"]] + " _ " + str(k[dictionary_3["NRO_TELEFONE13"]]))
+		print("Invalid IP at line " + str(i) + " - " + k[dictionary_3["IP_FIXO"]] + " _ " + str(k[dictionary_3["INST_BL"]]))
 	
 	i += 1
 
